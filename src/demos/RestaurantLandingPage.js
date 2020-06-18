@@ -18,7 +18,7 @@ export default () => {
             <HighlightedText>Rice Near You.</HighlightedText>
           </>
         }
-        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description='Free delivery within Novaliches Quezon City and North Caloocan'
         imageSrc='https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
         imageCss={imageCss}
         imageDecoratorBlob={true}
