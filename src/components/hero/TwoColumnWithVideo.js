@@ -81,11 +81,6 @@ export default ({
           <LeftColumn>
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
-            <Actions>
-              <PrimaryButton as='a' href={primaryButtonUrl}>
-                {primaryButtonText}
-              </PrimaryButton>
-            </Actions>
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>

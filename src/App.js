@@ -68,8 +68,8 @@ import {css} from 'styled-components/macro'; //eslint-disable-line
 // import FAQ from "components/faqs/SingleCol.js";
 // import FAQ from "components/faqs/TwoColumnPrimaryBackground.js";
 
-// import ContactUsForm from "components/forms/SimpleContactUs.js";
-// import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
+//import ContactUsForm from 'components/forms/SimpleContactUs.js';
+import ContactUsForm from 'components/forms/TwoColContactUsWithIllustration.js';
 // import SubscribeNewsLetterForm from "components/forms/SimpleSubscribeNewsletter.js";
 //
 // import GetStarted from "components/cta/GetStarted.js";
@@ -95,16 +95,36 @@ import {css} from 'styled-components/macro'; //eslint-disable-line
 // import LoginPage from "pages/Login.js";
 // import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
-// import AboutUsPage from "pages/AboutUs.js";
+import AboutUsPage from 'pages/AboutUs.js';
 // import ContactUsPage from "pages/ContactUs.js";
 // import BlogIndexPage from "pages/BlogIndex.js";
 // import TermsOfServicePage from "pages/TermsOfService.js";
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 
 import RestaurantLandingPage from 'demos/RestaurantLandingPage';
+import OrderForm from 'pages/OrderForm';
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 export default function App() {
-  return <RestaurantLandingPage />;
+  return (
+    <Router>
+      <Switch>
+        <Route path='/about'>
+          <AboutUsPage />
+        </Route>
+        <Route path='/contact'>
+          <ContactUsForm />
+        </Route>
+        <Route path='/order/:id' exact>
+          <OrderForm />
+        </Route>
+        <Route path='/'>
+          <RestaurantLandingPage />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
 // export default EventLandingPage;

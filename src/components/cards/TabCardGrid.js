@@ -70,41 +70,41 @@ export default ({
         imageSrc:
           'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         title: 'Dinurado Mindoro',
-        content: 'Dinurado Mindoro',
+        content: 'Premium Local Rice (25kg)',
         price: '₱1,100',
-        url: '#',
+        url: '/order/1',
       },
       {
         imageSrc:
           'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         title: 'Hobi Denorado',
-        content: 'Hobi Denorado',
+        content: 'Premium Local Rice (25kg)',
         price: '₱1,100',
-        url: '#',
+        url: '/order/2',
       },
       {
         imageSrc:
           'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-        title: 'Super Angelica,',
-        content: 'Super Angelica,',
+        title: 'Super Angelica',
+        content: 'Premium Local Rice (25kg)',
         price: '₱1,100',
-        url: '#',
+        url: '/order/3',
       },
       {
         imageSrc:
           'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         title: 'Jasmine',
-        content: 'Jasmine',
+        content: 'Premium Local Rice (25kg)',
         price: '₱1,100',
-        url: '#',
+        url: '/order/4',
       },
       {
         imageSrc:
           'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         title: 'Sakura',
-        content: 'Sakura',
+        content: 'Premium Local Rice (25kg)',
         price: '₱1,100',
-        url: '#',
+        url: '/order/5',
       },
     ],
   },
@@ -165,7 +165,7 @@ export default ({
                       }}
                       transition={{duration: 0.3}}
                     >
-                      <CardButton>Buy Now</CardButton>
+                      <CardButton>Order Now</CardButton>
                     </CardHoverOverlay>
                   </CardImageContainer>
                   <CardText>

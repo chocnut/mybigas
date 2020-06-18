@@ -78,9 +78,8 @@ export default ({
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href='/#'>Products</NavLink>
-      <NavLink href='/#'>About</NavLink>
-      <NavLink href='/#'>Contact Us</NavLink>
+      <NavLink href='/about'>About</NavLink>
+      <NavLink href='/contact'>Contact Us</NavLink>
     </NavLinks>,
   ];
 
