@@ -103,7 +103,7 @@ export default ({
         imageSrc: jasmine,
         title: 'Jasmine',
         content: 'Premium Local Rice (25kg)',
-        price: '₱1,1175',
+        price: '₱1,175',
         url: '/order/4',
       },
       {
