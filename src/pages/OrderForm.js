@@ -207,8 +207,14 @@ export default () => {
                           <Option value='1'>Dinurado Mindoro (25kg)</Option>
                           <Option value='2'>Hobi Denorado (25kg)</Option>
                           <Option value='3'>Super Angelica (25kg)</Option>
-                          <Option value='4'>Jassmine (25kg)</Option>
+                          <Option value='4'>Jasmine (25kg)</Option>
                           <Option value='5'>Sakura (25kg)</Option>
+                          <Option value='6'>Blueberry (50kg)</Option>
+                          <Option value='7'>Sweet Hasmine (50kg)</Option>
+                          <Option value='8'>Coco Pandan (25kg)</Option>
+                          <Option value='9'>Lotus Blossoms (50kg)</Option>
+                          <Option value='10'>Super Sinandomeng (50kg)</Option>
+                          <Option value='11'>Lady Angelica (50kg)</Option>
                         </Select>
                       </InputContainer>
                       <InputContainer>

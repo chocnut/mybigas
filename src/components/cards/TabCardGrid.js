@@ -10,6 +10,18 @@ import {ReactComponent as StarIcon} from 'images/star-icon.svg';
 import {ReactComponent as SvgDecoratorBlob1} from 'images/svg-decorator-blob-5.svg';
 import {ReactComponent as SvgDecoratorBlob2} from 'images/svg-decorator-blob-7.svg';
 
+import dinuradomindoro from 'images/rice/dinuradomindoro.jpg';
+import cocopandan from 'images/rice/cocopandan.jpg';
+import blueberry from 'images/rice/blueberry.jpg';
+import hobi from 'images/rice/hobi.jpg';
+import jasmine from 'images/rice/jasmine.jpg';
+import ladyangelica from 'images/rice/ladyangelica.jpg';
+import lotusblossom from 'images/rice/lotusblossom.jpg';
+import sakura from 'images/rice/sakura.jpg';
+import superangelica from 'images/rice/superangelica.jpg';
+import sweethasmine from 'images/rice/sweethasmine.jpg';
+import supersinandomeng from 'images/rice/supersinandomeng.jpg';
+
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
 const TabsControl = tw.div`flex flex-wrap bg-gray-200 px-2 py-2 rounded leading-none mt-12 xl:mt-0`;
@@ -32,7 +44,7 @@ const Card = tw(
 )`bg-gray-200 rounded-b block max-w-xs mx-auto sm:max-w-none sm:mx-0`;
 const CardImageContainer = styled.div`
   ${(props) => css`background-image: url("${props.imageSrc}");`}
-  ${tw`h-56 xl:h-64 bg-center bg-cover relative rounded-t`}
+  ${tw`h-56 xl:h-64 bg-cover relative rounded-t`}
 `;
 const CardRatingContainer = tw.div`leading-none absolute inline-flex bg-gray-100 bottom-0 left-0 ml-4 mb-4 rounded-full px-5 py-2 items-end`;
 const CardRating = styled.div`
@@ -67,44 +79,81 @@ export default ({
   tabs = {
     Premium: [
       {
-        imageSrc:
-          'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        imageSrc: dinuradomindoro,
         title: 'Dinurado Mindoro',
         content: 'Premium Local Rice (25kg)',
-        price: '₱1,100',
+        price: '₱1,325',
         url: '/order/1',
       },
       {
-        imageSrc:
-          'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        imageSrc: hobi,
         title: 'Hobi Denorado',
         content: 'Premium Local Rice (25kg)',
-        price: '₱1,100',
+        price: '₱1,325',
         url: '/order/2',
       },
       {
-        imageSrc:
-          'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        imageSrc: superangelica,
         title: 'Super Angelica',
         content: 'Premium Local Rice (25kg)',
         price: '₱1,100',
         url: '/order/3',
       },
       {
-        imageSrc:
-          'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        imageSrc: jasmine,
         title: 'Jasmine',
         content: 'Premium Local Rice (25kg)',
-        price: '₱1,100',
+        price: '₱1,1175',
         url: '/order/4',
       },
       {
-        imageSrc:
-          'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        imageSrc: sakura,
         title: 'Sakura',
         content: 'Premium Local Rice (25kg)',
-        price: '₱1,100',
+        price: '₱1,200',
         url: '/order/5',
+      },
+      {
+        imageSrc: blueberry,
+        title: 'Blueberry',
+        content: 'Premium Local Rice (50kg)',
+        price: '₱2,250',
+        url: '/order/6',
+      },
+      {
+        imageSrc: sweethasmine,
+        title: 'Sweet Hasmine',
+        content: 'Premium Local Rice (50kg)',
+        price: '₱2,350',
+        url: '/order/7',
+      },
+      {
+        imageSrc: cocopandan,
+        title: 'Coco Pandan',
+        content: 'Premium Local Rice (25kg)',
+        price: '₱1,300',
+        url: '/order/8',
+      },
+      {
+        imageSrc: lotusblossom,
+        title: 'Lotus Blossoms',
+        content: 'Premium Local Rice (50kg)',
+        price: '₱2,100',
+        url: '/order/9',
+      },
+      {
+        imageSrc: supersinandomeng,
+        title: 'Super Sinandomeng',
+        content: 'Premium Local Rice (50kg)',
+        price: '₱2,250',
+        url: '/order/10',
+      },
+      {
+        imageSrc: ladyangelica,
+        title: 'Lady Angelica',
+        content: 'Premium LOcal Rice (50kg)',
+        price: '₱1,100',
+        url: '/order/11',
       },
     ],
   },
