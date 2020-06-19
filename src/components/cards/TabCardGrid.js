@@ -152,7 +152,7 @@ export default ({
         imageSrc: ladyangelica,
         title: 'Lady Angelica',
         content: 'Premium LOcal Rice (50kg)',
-        price: '₱1,100',
+        price: '₱2,200',
         url: '/order/11',
       },
     ],
